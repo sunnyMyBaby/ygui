@@ -8,7 +8,7 @@ fs.readFile('./dist/index.html', function(err, data) {
     res.setHeader('Content-Type', 'text/html')
     res.end(html)
   })
-  .listen(3001, () => {
+  .listen(3002, () => {
     console.log('Server Running At 3001')
   })
 });
